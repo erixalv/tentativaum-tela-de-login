@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/tablet.css">
+    <link rel="stylesheet" href="estilos/desktop.css">
+</head>
+<body>
+    <header>
+        <h1>Tela de Login</h1>
+        <nav>
+            <p>Home</p>
+            <p>Notícias</p>
+            <p>Contatos</p>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <div id="foto">
+                
+            </div>
+            <div id="form">
+                <h1>Login</h1>
+                <p>Bem vindo! Insira seu e-mail e senha para acessar!</p>
+                <form action="home.html" method="post" autocomplete="on">
+                    <p>
+                        <input type="email" name="email" id="iemail" class="precisos" required minlength="10" placeholder="Digite seu e-mail">
+                        <label for="iemail">Email </label>
+                    </p>
+                    <p>
+                        <input type="password" name="senha" id="isenha" class="precisos" required minlength="8" maxlength="20" placeholder="Digite sua senha">
+                        <label for="isenha">Senha</label>
+                    </p>
+                    <p>
+                        <input type="submit" value="Entrar">
+                    </p>
+                    <p>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs" target="_blank">Esqueceu a senha?</a>
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

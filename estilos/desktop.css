@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+    
+    @keyframes animacao {
+    
+        from {width: 40vw; height: 86px; opacity: 0%;}
+        to {width: 40vw; height: 430px; opacity: 100%;}
+    }
+    
+    main > section {
+    
+        width: 40vw;
+        animation-name: animacao;
+        animation-duration: 2s;
+    }
+
+}
+
